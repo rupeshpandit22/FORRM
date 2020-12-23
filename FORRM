@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h3><strong> Model Form</strong></h3>
+ <hr>
+   <div style="background-color:#FFC0CB	;padding-top: 2px;padding-bottom: 2px;border-radius: 10px;">
+        <ul>
+            <li style="color: brown;">First name field is required</li>
+            <li style="color: brown;"> last name field is required</li>
+            <li style="color: brown;">company name field is required</li>
+            <li style="color: brown;">Posiion field is required</li>
+            <li style="color: brown;">zip code field is required</li>
+            <li style="color: brown;">Phone Number field is required</li>
+            <li style="color: brown;">I agree :modal forms are awesome! field is required</li>
+          </ul>
+    </div>
+    <h3 style="color: brown; ;""> First name*</h3> 
+    <input type="text" style="width:98%; border-radius: 10px;"">
+    <h3 style="color: brown;">Last name*</h3> 
+    <input type="text" style="width:98%;border-radius: 10px";>
+    <h3 style="color: brown;">Company name*</h3> 
+    <input type="text" style="width:98%;border-radius: 10px";>
+   <h3 style="color: brown;">Position*</h3> 
+    <input type="text" style="width:98%;;border-radius: 10px";>
+    <h3 style="color: brown;">Zip code*</h3> 
+    <input type="number" style="width:98%;;border-radius: 10px";>
+    <h3 style="color: brown;">Phone Number*</h3> 
+    <input type="number" style="width:98%;;border-radius: 10px";>
+    <br><br>
+
+    <input type="radio" id="i agree model forms are awesome*" name="gender" value="male">
+    <label for="male" style="color: brown;"><strong>I agree model forms are awesome*</strong></label><br>
+
+<button style="color:white;background-color: darkblue;border-radius: 10px; padding: 10px;">SUBMIT AJAX FORM AGAIN</button>
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>
